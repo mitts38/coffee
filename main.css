@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) ;
+    background-size: cover;
+}
+
+.coffee{
+display: flex;
+display: wrap;
+justify-content: right;
+}
+
+
+.list{
+    color: white;
+    flex-basis: 18;
+    padding: 1em;
+    margin: 0.5em;
+    justify-content: space-evenly;
+    
+}
+
+.pageHeader{
+    color: pink;
+border: 1px solid black;
+text-align: center;
+}
+.shop{
+    display: flex;
+    flex-basis: 18;
+    border: 1px solid black;
+    width: 30%;
+    padding: 1em;
+    margin: 0.5;
+    justify-content: space-evenly;
+}
